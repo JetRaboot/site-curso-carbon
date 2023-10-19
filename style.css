@@ -32,5 +32,6 @@ nav ul li {
 
 footer {
     position: absolute;
-    width: 100%;
+    bottom: 0;
+    width: 70%;
 }
