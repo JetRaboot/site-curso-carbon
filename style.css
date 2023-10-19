@@ -9,11 +9,11 @@ nav li {
 }
 
 body {
-    background-image: url('galaxia.jpg'); /* Substitua 'galaxia.jpg' pelo caminho da sua imagem */
+    background-image: url('galaxia.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #fff; /* Define a cor do texto no site como branco */
+    color: #fff;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -21,11 +21,17 @@ body {
 }
 
 header, nav, main, footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com transparência para conteúdo legível */
-    padding: 20px;
-    color: #fff; /* Cor do texto em áreas de conteúdo */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
 }
 
 nav ul li {
     cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
 }
