@@ -13,8 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -31,7 +30,29 @@ nav ul li {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
-    width: 97%;
+}
+
+p{
+padding-top: 38px;
+padding-bottom: 40px;
+}
+
+#m1 {
+    font-size: 24px;
+}
+
+#m2 {
+    font-size: 24px;
+}
+
+#m3 {
+    font-size: 24px;
+}
+
+.highlight-box {
+    background-color: #222;
+    color: #fff;
+    padding: 30px;
+    margin: -20px;
 }

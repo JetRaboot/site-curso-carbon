@@ -7,5 +7,5 @@ document.getElementById("m2").addEventListener("click", function() {
 });
 
 document.getElementById("m3").addEventListener("click", function() {
-    window.location.href = "m3";
+    window.location.href = "m3.html";
 });
